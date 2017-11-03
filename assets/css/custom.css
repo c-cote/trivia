@@ -1,0 +1,119 @@
+/* 
+04 css :: chris cote
+*/
+
+html {
+    margin: 0;
+	padding: 0;
+    height: 100%;
+}
+
+body {
+    background: url(../img/bg.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    border-top: 2px solid #cccccc;
+}
+
+
+.footer {
+    bottom: 0;
+    height: 30px;
+    background: #f0f0f0;
+    width: 100%;
+    border-top: 2px solid #cccccc;
+}
+
+.footer_text {
+    padding: 10px 0 0 40px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #999999; 
+}
+
+.panel {
+    border-radius: 40px;
+    border: 2px solid #2862b3;
+    margin: 20px 0 40px 0;
+    box-shadow: 8px 12px 4px #3797eb;
+}
+
+.panel p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.panel ul {
+    margin: 20px 0 20px 0;
+    list-style-type: none;
+}
+
+.panel li {
+    display: inline;
+}
+
+#quiz {
+    margin: 100px 0 20px 0;
+}
+
+.question {
+    font-size: 18px;
+    color: #333333;
+    margin: 0 0 0 20px;
+}
+
+.answers {
+    margin: 20px;
+    text-align: left;
+}
+
+.answers label{
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
+
+#submit{
+    font-size: 18px;
+    color: #000000;
+    border: 2px solid #3797eb;
+    border-radius: 20px;
+    background-color: #c6dcf5; 
+    margin-bottom: 20px;
+}
+
+#submit:hover{
+    background-color: #b7d4f5;
+}
+
+button {
+    margin: 10px 0 60px 0;
+}
+.score {
+    float: right;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    color: #999999;
+    margin: 20px 60px 40px 0;
+    padding: 5px 20px 0 20px;
+    border-radius: 20px;
+    border: 2px solid #3797eb;
+    width: 200px;
+    height: 40px;
+}
+
+#results {
+    text-align: left;
+    display: inline-block;
+    padding: 0 0 0 10px;
+    color: #666666;
+}
+
+
+
+
+
+
